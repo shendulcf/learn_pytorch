@@ -13,7 +13,7 @@ writer = SummaryWriter("logs")
     walltime (float): Optional override default walltime (time.time())
       seconds after epoch of event
 '''
-img_path = r'D:\workspace\Study_Pytorch\xiaotudui\dataset\dataset1\train\ants\649026570_e58656104b.jpg'
+img_path = r'E:\Workspace\Study_Pytorch\xiaotudui\dataset\dataset1\train\ants\67270775_e9fdf77e9d.jpg'
 img = Image.open(img_path)
 img_array = np.array(img)
 print(type(img_array))

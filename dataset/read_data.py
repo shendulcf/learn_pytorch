@@ -27,7 +27,7 @@ class Mydata(Dataset):
     def __len__(self):
         return len(self.img_path)
 
-root_dir = r'D:\workspace\Study_Pytorch\xiaotudui\dataset\dataset1\train'
+root_dir = r'E:\workspace\Study_Pytorch\xiaotudui\dataset\dataset1\train'
 ants_label_dir = 'ants'
 bees_label_dir = 'bees'
 ants_dataset = Mydata(root_dir, ants_label_dir)
